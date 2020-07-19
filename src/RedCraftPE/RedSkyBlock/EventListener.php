@@ -496,7 +496,7 @@ class EventListener implements Listener {
           return;
         } else {
 
-          if ($skyblockArray[$islandOwner]["Settings"]["Pickup"] === "on") {
+          if ($skyblockArray[$islandOwner]["Settings"]["Pickup"] === "off") {
 
             $event->setCancelled(true);
           }
